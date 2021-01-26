@@ -1,0 +1,38 @@
+*{
+	font-family: 'Archivo', sans-serif;
+	margin: 0;
+	font-size: 20px;
+}
+
+.nav{
+	width: 100vw;
+	height: 10vh;
+	background-color: yellow;
+	position: fixed;
+}
+
+#button1{
+	margin-left: 10px;
+	margin-top: 10px;
+	font-size: 2rem;
+	color: white;
+}
+
+.dropDownContent {
+	display: none;
+	background-color: yellow; 
+	width: 100vw;
+}
+
+.dropDownContent a {
+	margin-left: 10px;
+	line-height: 40px;
+  	color: black;
+ 	text-decoration: none;
+ 	display: block;
+  	text-align: left;
+}
+
+.dropDown:hover .dropDownContent {
+	display: block;
+}
