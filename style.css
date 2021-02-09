@@ -6,7 +6,7 @@
 
 .nav{
 	width: 100vw;
-	height: 10vh;
+	height: 8vh;
 	background-color: yellow;
 	position: fixed;
 }
@@ -14,7 +14,7 @@
 #button1{
 	margin-left: 0.5rem;
 	margin-top: 0.5rem;
-	font-size: 2rem;
+	font-size: 1.5rem;
 	color: white;
 }
 
@@ -25,6 +25,7 @@
 }
 
 .dropDownContent a {
+	font-size: 0.8rem;
 	margin-left: 0.5rem;
 	line-height: 40px;
   	color: black;
@@ -37,11 +38,89 @@
 	display: block;
 }
 
+/*top*/
+.top > #logo{
+	margin-top: 3.4rem;
+	margin-left: 6rem;
+	width: 13rem;
+}
+
+.top > #drvingImage{
+	width: 100vw;
+}
+
+/*main*/
+hr{
+	margin-top: 0.5rem;
+	margin-bottom: 0.5rem;
+	line-height: 2rem;
+}
+.main{
+	margin-top: 1.5rem; 
+	margin-left: 1rem;
+	margin-right: 20px;
+}
+
+.tryOut{
+	color: gray;
+	font-weight: dimgrey;
+}
+
+.main > p{
+	line-height: 1.3;
+	word-spacing: 0.2rem;
+	font-size: 0.9rem;
+}
+
+.proefles{
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	width: 15rem;
+	height: 3rem;
+	background-color: orange;
+}
+
+.proefles p{
+	padding: 0.9rem;
+	text-align: center;
+}
+
+.proefles:hover{
+	background-color: lightgrey;
+}
+
+.locations{
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	color: gray;
+	font-weight: lighter;
+}
+
+.lessons{
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	color: gray;
+	font-weight: lighter;
+}
+
+.footer{
+	margin-top: 2rem;
+	width: 100vw;
+	background-color: grey;
+	height: 2rem;
+}
+
+.footer > p{
+	padding: 0.5rem;
+	font-size: 0.8rem;
+}
+
+
 
 
 /*andere devices*/
 
-@media screen and (min-width: 576px){
+/*@media screen and (min-width: 576px){
 	body{
 		background-color: red;
 	}
@@ -58,3 +137,4 @@
 
 }
 
+*/
